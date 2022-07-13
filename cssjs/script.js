@@ -34,3 +34,7 @@ function lottery() {
 }
 
 lottery();
+
+function reload() {
+  location.reload();
+}

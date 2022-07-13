@@ -6,7 +6,6 @@ li {
 
 #number {
   width: 600px;
-  height: 200px;
 }
 
 #number ul {
@@ -18,5 +17,25 @@ li {
 }
 
 #number ul li {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
   padding: 10px;
+  margin: 0 10px;
+  border: solid 1px #000;
+  border-radius: 50%;
+}
+
+.reset-btn {
+  width: 100px;
+  height: 30px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(84, 84, 236);
+  color: #fff;
+
+  margin-left: 30px;
+
+  cursor: pointer;
 }
