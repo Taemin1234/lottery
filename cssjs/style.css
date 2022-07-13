@@ -1,0 +1,22 @@
+ul,
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+#number {
+  width: 600px;
+  height: 200px;
+}
+
+#number ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+#number ul li {
+  padding: 10px;
+}
